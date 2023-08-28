@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.fazziclay.javaworldtools"
-version = "1.0-SNAPSHOT"
+version = "1.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -11,8 +11,9 @@ repositories {
 }
 
 dependencies {
-    //implementation("com.github.hollow-cube:minestom-ce:d47db72421")
+    implementation("com.github.hollow-cube:minestom-ce:d47db72421")
     implementation("dev.hollowcube:polar:1.3.1")
+    implementation("org.slf4j:slf4j-simple:2.0.7")
     implementation("net.sf.jopt-simple:jopt-simple:6.0-alpha-3")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")

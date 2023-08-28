@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b861a257-593e-42a7-8d5d-7dff19a0df32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fazziclay/javaworldtools/Main.java" afterDir="false" />
+    <list default="true" id="b861a257-593e-42a7-8d5d-7dff19a0df32" name="Changes" comment="two commit">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fazziclay/javaworldtools/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fazziclay/javaworldtools/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +60,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.JavaWorldTools [jar]">
+}</component>
+  <component name="RunManager" selected="Application.com.fazziclay.javaworldtools.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JavaWorldTools.main" />
@@ -77,6 +77,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.fazziclay.javaworldtools.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fazziclay.javaworldtools.Main" />
+      <module name="JavaWorldTools.main" />
+      <option name="PROGRAM_PARAMETERS" value="--source &quot;./world&quot; --dest &quot;./w.polar&quot; --mode &quot;anvil-&gt;polar&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fazziclay.javaworldtools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +121,15 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.com.fazziclay.javaworldtools.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.JavaWorldTools [jar]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JavaWorldTools [jar]" />
+        <item itemvalue="Application.com.fazziclay.javaworldtools.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.JavaWorldTools [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1689331847560</updated>
     </task>
+    <task id="LOCAL-00001" summary="two commit">
+      <created>1689335948480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689335948480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="two commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="two commit" />
   </component>
 </project>
